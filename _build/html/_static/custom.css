@@ -1,0 +1,79 @@
+:root {
+  --bcs: #f1f5f8;
+  --gcs: #04a101;
+  --pst-color-primary: var(--gcs) !important;
+  --pst-color-secondary: #92d051 !important;
+}
+
+body {
+  background-color: var(--bcs);
+}
+
+.bd-sidebar {
+  background-color: var(--bcs);
+  overflow: hidden !important;
+}
+
+.bd-sidebar-secondary {
+  background-color: var(--bcs);
+}
+
+.bd-header-article {
+  background-color: var(--bcs);
+}
+
+.dropdown-launch-buttons,
+.theme-switch-button,
+.primary-toggle,
+.search-button-field {
+  display: none !important;
+}
+
+.reference,
+.std-doc {
+  color: var(--gcs);
+  text-decoration: none;
+}
+
+.reference:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--gcs);
+  border: none;
+}
+
+code {
+  color: var(--gcs);
+}
+
+.bd-content,
+.bd-article-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-right: 0 !important;
+  overflow: hidden;
+}
+
+.bd-sidebar-secondary {
+  max-width: 12% !important;
+}
+
+#milieugevolgen-van-de-uitstoot-van-broeikasgassen h1 {
+  font-size: 2.2rem !important;
+}
+
+#milieugevolgen-van-de-uitstoot-van-broeikasgassen p img {
+  height: 450px;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: #26262a;
+}
+
+blockquote {
+  background-color: #eceef1;
+  border-left-color: var(--gcs);
+}
+
+.cell_output .text_html {
+  border-radius: 20px !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
